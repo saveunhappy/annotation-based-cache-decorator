@@ -110,7 +110,6 @@ public class CacheClassDecorator {
         }
     }
 
-
     public static void main(String[] args) throws Exception {
         DataService dataService = decorate(DataService.class).getConstructor().newInstance();
 
